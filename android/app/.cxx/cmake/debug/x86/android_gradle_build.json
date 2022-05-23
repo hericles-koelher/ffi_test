@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/mnt/sda4/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/mnt/sda4/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dprimes_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/hericles/Flutter Projects/ffi_test/android/app/CMakeLists.txt",
+    "/mnt/sda4/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/mnt/sda4/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "primes-Debug-x86": {
+      "buildCommand": "/mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86\" primes",
+      "buildType": "debug",
+      "toolchain": "3533467813",
+      "abi": "x86",
+      "artifactName": "primes",
+      "files": [
+        {
+          "src": "/home/hericles/Flutter Projects/ffi_test/lib/src/c/primes.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/hericles/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/x86/libprimes.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3533467813": {
+      "cCompilerExecutable": "/mnt/sda4/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

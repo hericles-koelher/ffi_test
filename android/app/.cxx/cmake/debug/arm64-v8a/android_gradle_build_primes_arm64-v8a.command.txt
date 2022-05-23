@@ -1,0 +1,7 @@
+Executable : /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/arm64-v8a
+primes
+jvmArgs : 
+

@@ -1,0 +1,9 @@
+# ninja log v5
+0	1625	1653334848	CMakeFiles/primes.dir/home/hericles/Flutter_Projects/ffi_test/lib/src/c/primes.c.o	ba13984ec6b1e1b8
+1626	1680	1653334848	/home/hericles/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so	baac698d1ac24511
+4	1388	1653337091	/home/hericles/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so	fb05f0d79cecc51
+0	1200	1653338241	CMakeFiles/primes.dir/home/hericles/Flutter_Projects/ffi_test/lib/src/c/test.c.o	6c1cf6ecfe15b743
+1200	1599	1653338242	/home/hericles/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so	b02694c6343768dc
+3	40	1653338502	/home/hericles/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so	fb05f0d79cecc51
+9	1704	1653339251	CMakeFiles/primes.dir/home/hericles/Flutter_Projects/ffi_test/lib/src/c/primes.c.o	ba13984ec6b1e1b8
+1704	1739	1653339251	/home/hericles/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so	fb05f0d79cecc51

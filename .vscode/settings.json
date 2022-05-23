@@ -1,0 +1,5 @@
+{
+    "cmake.configureOnOpen": false,
+    "python.formatting.provider": "autopep8",
+    "dart.flutterSdkPath": "/home/hericles/fvm/versions/3.0.0"
+}

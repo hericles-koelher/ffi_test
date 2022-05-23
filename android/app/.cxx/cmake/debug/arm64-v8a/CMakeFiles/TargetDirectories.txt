@@ -1,0 +1,3 @@
+/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/primes.dir
