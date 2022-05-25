@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/armeabi-v7a" && /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/home/motora/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/armeabi-v7a" && /home/motora/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -43,7 +43,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/armeabi-v7a" && /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H"/home/hericles/Flutter Projects/ffi_test/android/app" -B"/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/armeabi-v7a"
+  COMMAND = cd "/home/motora/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/armeabi-v7a" && /home/motora/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H"/home/motora/Flutter Projects/ffi_test/android/app" -B"/home/motora/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/armeabi-v7a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -56,21 +56,21 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Order-only phony target for primes
 
 build cmake_object_order_depends_target_primes: phony
-build CMakeFiles/primes.dir/home/hericles/Flutter_Projects/ffi_test/lib/src/c/primes.c.o: C_COMPILER__primes /home/hericles/Flutter$ Projects/ffi_test/lib/src/c/primes.c || cmake_object_order_depends_target_primes
+build CMakeFiles/primes.dir/home/motora/Flutter_Projects/ffi_test/lib/src/c/primes.c.o: C_COMPILER__primes /home/motora/Flutter$ Projects/ffi_test/lib/src/c/primes.c || cmake_object_order_depends_target_primes
   DEFINES = -Dprimes_EXPORTS
-  DEP_FILE = CMakeFiles/primes.dir/home/hericles/Flutter_Projects/ffi_test/lib/src/c/primes.c.o.d
+  DEP_FILE = CMakeFiles/primes.dir/home/motora/Flutter_Projects/ffi_test/lib/src/c/primes.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
   OBJECT_DIR = CMakeFiles/primes.dir
-  OBJECT_FILE_DIR = CMakeFiles/primes.dir/home/hericles/Flutter_Projects/ffi_test/lib/src/c
+  OBJECT_FILE_DIR = CMakeFiles/primes.dir/home/motora/Flutter_Projects/ffi_test/lib/src/c
 
 # =============================================================================
 # Link build statements for SHARED_LIBRARY target primes
 
 
 #############################################
-# Link the shared library /home/hericles/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so
+# Link the shared library /home/motora/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so
 
-build /home/hericles/Flutter$ Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so: C_SHARED_LIBRARY_LINKER__primes CMakeFiles/primes.dir/home/hericles/Flutter_Projects/ffi_test/lib/src/c/primes.c.o
+build /home/motora/Flutter$ Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so: C_SHARED_LIBRARY_LINKER__primes CMakeFiles/primes.dir/home/motora/Flutter_Projects/ffi_test/lib/src/c/primes.c.o
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = -lm -latomic -lm
@@ -79,13 +79,13 @@ build /home/hericles/Flutter$ Projects/ffi_test/build/app/intermediates/cmake/de
   PRE_LINK = :
   SONAME = libprimes.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = "/home/hericles/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so"
+  TARGET_FILE = "/home/motora/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so"
   TARGET_PDB = primes.so.dbg
 # =============================================================================
 # Target aliases.
 
-build libprimes.so: phony /home/hericles/Flutter$ Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so
-build primes: phony /home/hericles/Flutter$ Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so
+build libprimes.so: phony /home/motora/Flutter$ Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so
+build primes: phony /home/motora/Flutter$ Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so
 # =============================================================================
 # Folder targets.
 
@@ -97,7 +97,7 @@ build primes: phony /home/hericles/Flutter$ Projects/ffi_test/build/app/intermed
 #############################################
 # The main all target.
 
-build all: phony /home/hericles/Flutter$ Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so
+build all: phony /home/motora/Flutter$ Projects/ffi_test/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libprimes.so
 
 #############################################
 # Make the all target the default.
@@ -107,13 +107,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../../../../CMakeLists.txt /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake /mnt/sda4/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake /mnt/sda4/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../../../../CMakeLists.txt /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake /home/motora/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake /home/motora/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../../../../CMakeLists.txt /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake /mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake /mnt/sda4/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake /mnt/sda4/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake: phony
+build ../../../../CMakeLists.txt /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake /home/motora/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake /home/motora/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake /home/motora/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake: phony
 
 #############################################
 # Clean all the built files.

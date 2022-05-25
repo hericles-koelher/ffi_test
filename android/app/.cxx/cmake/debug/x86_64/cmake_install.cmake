@@ -1,4 +1,4 @@
-# Install script for directory: /home/hericles/Flutter Projects/ffi_test/android/app
+# Install script for directory: /home/motora/Flutter Projects/ffi_test/android/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/motora/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

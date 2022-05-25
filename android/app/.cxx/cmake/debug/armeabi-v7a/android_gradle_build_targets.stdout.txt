@@ -1,0 +1,21 @@
+ninja: Entering directory `/home/motora/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/armeabi-v7a'
+[1/3] Building C object CMakeFiles/primes_python.dir/home/motora/Flutter_Projects/ffi_test/lib/src/python/c_code/bridge.c.o
+FAILED: CMakeFiles/primes_python.dir/home/motora/Flutter_Projects/ffi_test/lib/src/python/c_code/bridge.c.o 
+/home/motora/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/motora/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/motora/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dprimes_python_EXPORTS -I../../../../../../lib/src/python/include/python3.9 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/primes_python.dir/home/motora/Flutter_Projects/ffi_test/lib/src/python/c_code/bridge.c.o -MF CMakeFiles/primes_python.dir/home/motora/Flutter_Projects/ffi_test/lib/src/python/c_code/bridge.c.o.d -o CMakeFiles/primes_python.dir/home/motora/Flutter_Projects/ffi_test/lib/src/python/c_code/bridge.c.o   -c '/home/motora/Flutter Projects/ffi_test/lib/src/python/c_code/bridge.c'
+In file included from /home/motora/Flutter Projects/ffi_test/lib/src/python/c_code/bridge.c:2:
+In file included from /home/motora/Flutter Projects/ffi_test/lib/src/python/c_code/primes.h:6:
+In file included from ../../../../../../lib/src/python/include/python3.9/Python.h:8:
+../../../../../../lib/src/python/include/python3.9/pyconfig.h:15:12: fatal error: 'arm-linux-gnueabi/python3.9/pyconfig.h' file not found
+#  include <arm-linux-gnueabi/python3.9/pyconfig.h>
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[2/3] Building C object CMakeFiles/primes_python.dir/home/motora/Flutter_Projects/ffi_test/lib/src/python/c_code/primes.c.o
+FAILED: CMakeFiles/primes_python.dir/home/motora/Flutter_Projects/ffi_test/lib/src/python/c_code/primes.c.o 
+/home/motora/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/motora/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/motora/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dprimes_python_EXPORTS -I../../../../../../lib/src/python/include/python3.9 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/primes_python.dir/home/motora/Flutter_Projects/ffi_test/lib/src/python/c_code/primes.c.o -MF CMakeFiles/primes_python.dir/home/motora/Flutter_Projects/ffi_test/lib/src/python/c_code/primes.c.o.d -o CMakeFiles/primes_python.dir/home/motora/Flutter_Projects/ffi_test/lib/src/python/c_code/primes.c.o   -c '/home/motora/Flutter Projects/ffi_test/lib/src/python/c_code/primes.c'
+In file included from /home/motora/Flutter Projects/ffi_test/lib/src/python/c_code/primes.c:18:
+In file included from ../../../../../../lib/src/python/include/python3.9/Python.h:8:
+../../../../../../lib/src/python/include/python3.9/pyconfig.h:15:12: fatal error: 'arm-linux-gnueabi/python3.9/pyconfig.h' file not found
+#  include <arm-linux-gnueabi/python3.9/pyconfig.h>
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.

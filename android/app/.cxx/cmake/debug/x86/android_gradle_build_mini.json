@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "/home/hericles/Flutter Projects/ffi_test/android/app/CMakeLists.txt",
-    "/mnt/sda4/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "/mnt/sda4/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+    "/home/motora/Flutter Projects/ffi_test/android/app/CMakeLists.txt",
+    "/home/motora/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/motora/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
   ],
   "cleanCommands": [
-    "/mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86\" clean"
+    "/home/motora/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/motora/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86\" clean"
   ],
-  "buildTargetsCommand": "/mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/home/motora/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/motora/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "primes-Debug-x86": {
       "artifactName": "primes",
-      "buildCommand": "/mnt/sda4/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/hericles/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86\" primes",
+      "buildCommand": "/home/motora/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/motora/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/x86\" primes",
       "abi": "x86",
-      "output": "/home/hericles/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/x86/libprimes.so",
+      "output": "/home/motora/Flutter Projects/ffi_test/build/app/intermediates/cmake/debug/obj/x86/libprimes.so",
       "runtimeFiles": []
     }
   }

@@ -1,0 +1,8 @@
+Executable : /home/motora/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/motora/Flutter Projects/ffi_test/android/app/.cxx/cmake/debug/armeabi-v7a
+primes
+primes_python
+jvmArgs : 
+
